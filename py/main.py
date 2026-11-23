@@ -8,6 +8,7 @@ em quantos arquivos quiser dentro desta pasta.
 """
 import aedlib  # biblioteca base do projeto (obrigatória - não remova)
 
+
 def main():
     usuarios, seguidores, posts = aedlib.social_carregar_dados()
     # usuarios:   [id, usuario, nome, data_cadastro]
